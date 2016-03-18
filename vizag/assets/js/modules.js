@@ -11,10 +11,5 @@ app.config(function ($routeProvider) {
     })
 });
 app.controller("UserController", function ($scope, $route) {
-
-
     $scope.loadedTime = new Date();
-
-
-
 });
