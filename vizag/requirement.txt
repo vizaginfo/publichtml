@@ -1,0 +1,5 @@
+#Users folder location.html and stylesheet assets/css/cntl.css
+
+1. Need the title on image while hovering on the image with black transperent image.
+2. Title should have animation
+3. Pagination
