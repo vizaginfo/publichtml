@@ -11,14 +11,5 @@ app.config(function ($routeProvider) {
     })
 });
 app.controller("UserController", function ($scope, $route) {
-    $scope.data = {
-        //customProperty:$route.current.companyName,
-        //queryString: $route.current.params.city, 
-        //pathParams : $route.current.pathParams.id
-    };
-
     $scope.loadedTime = new Date();
-
-
-
 });
