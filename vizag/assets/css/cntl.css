@@ -121,7 +121,9 @@ animations
 .cntl-animate .cntl-image {
 	opacity:1;
 }
-
+#header{
+    border-bottom: 5px #9990AE solid !important;
+}
 
 
 
