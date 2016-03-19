@@ -124,6 +124,15 @@ animations
 #header{
     border-bottom: 5px #a8d5a3 solid !important;
 }
+#map {
+    height:420px;
+    width:auto;
+}
+.infoWindowContent {
+    font-size:  14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
 
 
 
