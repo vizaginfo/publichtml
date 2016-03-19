@@ -7,14 +7,15 @@
 		</header>
 		<p>Get in touch with us. </p>
 		<!-- Contact Form -->
-				<form name="myForm" >
+            <div id="messages" ng-show="message">{{ message }}</div>
+				<form name="myForm"  ng-submit="processForm()">
 					<div class="row 50%">
 						<div class="12u 12u(mobile)">
-                            <input type="text" name="myName" for="myName" ng-model="myName" placeholder="UserName" required/>
+                            <input type="text" name="myName" for="myName" ng-model="formData.myName" placeholder="UserName" required/>
                             <span style="color:red" ng-show="myForm.myName.$touched && myForm.myName.$invalid">The name is required.</span>
                         </div>
 						<div class="12u 12u(mobile)">
-                            <input type="password" name="password" for="password" ng-model="password" placeholder="Password" required/>
+                            <input type="password" name="password" for="password" ng-model="formData.password" placeholder="Password" required/>
                             <span style="color:red" ng-show="myForm.password.$touched && myForm.password.$invalid">The Password is required.</span>
                         </div>
 					</div>
